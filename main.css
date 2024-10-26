@@ -1,0 +1,483 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+body{
+
+}
+.common-wrapper{
+	width: 90%;
+	margin: auto;
+}
+.organic-navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px 20px;
+}
+.Organic-logo{
+	width: 12%;
+}
+.Organic-logo img{
+	width: 100%;
+	border-radius: 25px;
+}
+.search-input{
+	display: flex;
+	width: 45%;
+}
+.search-input img{
+	border-radius: 100px;
+	margin-left: -90px;
+}
+.search-input input{
+	width: 100%;
+	border-radius: 50px;
+	border: 1px solid lightgrey;
+	padding: 0px 15px;
+	font-size: 17px;
+}
+.contact-us{
+	display: flex;
+	gap: 12px;
+	align-items: center;
+}
+.contact-no p{
+	font-size: 18px;
+	color: grey;
+	margin: 8px auto;
+}
+.banner-img{
+	width: 100%;
+}
+.banner-img img{
+	width: 100%;
+}
+.banner-tittle{
+	width: 58%;
+	margin: auto;
+	position: absolute;
+ 	top: 30%;
+  	left: 35%;
+  	-ms-transform: translate(-50%, 0%);
+ 	transform: translate(-50%, 0%);
+}
+.banner-width{
+	top: 20%;
+	right: -20%;
+	text-align: center;
+}
+.banner-tittle h3{
+	font-size: 32px;
+	color: #f30a06;
+}
+.banner-tittle h4{
+	font-size: 25px;
+	color: #f41818;
+}
+.banner-tittle h1{
+	font-size: 78px;
+	color: white;
+}
+.banner-tittle p{
+	font-size: 21px;
+	line-height: 1.7;
+	margin: 30px auto;
+	color: white;
+	font-weight: 500;
+}
+.subscribe{
+	padding: 18px 50px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 34px;
+	color: white;
+	background-color: #7cc000;
+	border: 2px solid #7cc000;
+	font-weight: 600;
+	cursor: pointer;
+}
+.subscribe:hover{
+	background-color: white;
+	color: #7cc000;
+	border: 2px solid #7cc000;;
+	-webkit-transition: all ease-in .3s;
+    -ms-transition: all ease-in .3s;
+    -moz-transition: all ease-in .3s;
+}
+.h1-tittle span{
+	color: #7cc000;
+}
+.banner-background-img{
+	position: relative;
+}
+.facilities{
+	display: flex;
+	justify-content: space-between;
+	margin: 50px auto;
+}
+.best-product{
+	text-align: center;
+	border: 1px solid #f6f6f6;
+	background-color: #f6f6f6;
+	border-radius: 100%;
+	padding: 40px;
+	background-color: #d8ebb75e;
+}
+.best-product h3{
+	font-size: 22px;
+	margin-bottom: 8px;
+}
+.best-product p{
+	font-size: 20px;
+}
+.organic-tittle{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.fresh-farm p{
+	font-weight: 600;
+	color: #7cc000;
+	margin-bottom: 10px;
+	font-size: 18px;
+}
+.fresh-farm h2{
+	font-size: 36px;
+}
+.view-more{
+	padding: 10px 35px;
+	font-size: 18px;
+	letter-spacing: 2px;
+	border-radius: 34px;
+	color: white;
+	background-color: #7cc000;
+	border: 2px solid #7cc000;
+	font-weight: 500;
+	cursor: pointer;
+}
+.view-more:hover{
+	background-color: white;
+	color: #7cc000;
+	-webkit-transition: all ease-in .4s;
+    -ms-transition: all ease-in .4s;
+    -moz-transition: all ease-in .4s;
+}
+.meat-box{
+	width: 22%;
+	border: 2px solid lightgrey;
+	padding: 20px;
+	border-radius: 25px;
+	background-color: #fafafa;
+
+	-webkit-transition: transform .2s;
+    -moz-transition: transform .2s;
+    transition: transform .2s;
+    cursor: pointer;
+}
+.meat-box:hover{
+	transform: scale(1.1);
+	border: 2px solid green;
+}
+.offer-meat{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.p-tittle{
+	color: #7cc000;
+	font-size: 15px;
+	font-weight: 600;
+}
+.p-tag{
+	border: 1px solid red;
+	padding: 5px 10px;
+	font-weight: 500;
+	background-color: #f14e18;
+	color: white;
+	border-radius: 15px;
+}
+.organic-fruits{
+	width: 60%;
+	margin: auto;
+}
+.organic-fruits img{
+	width: 100%;
+	border-radius: 20px;
+}
+.ratings{
+	display: flex;
+	gap: 5px;
+	margin-top: 14px;
+}
+.ratings p{
+	color: grey;
+	font-weight: 500;
+}
+.offers-tittle h3{
+	font-size: 24px;
+	color: #535353;
+	margin: 10px auto;
+}
+.price-tag{
+ 	font-weight: 600;
+ 	font-size: 17px;
+ 	color: grey;
+}
+.price-tag span{
+	color: #7cc000;
+	margin-left: 16px;
+}
+.organic-meats{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.trusted-food-tittle{
+	width: 46%;
+}
+.trusted-food-tittle h4{
+	color: #7cc000;
+}
+.trusted-food-tittle h2{
+	font-size: 60px;
+	color: #292929;
+	margin: 20px auto;
+	line-height: 1;
+}
+.trust-tittle span{
+	color: #7cc000;
+}
+.trusted-food-tittle p{
+	font-size: 18px;
+	color: grey;
+	line-height: 1.6;
+	margin-bottom: 20px;
+}
+.h3-tag{
+	font-size: 22px;
+	line-height: 2.4;
+}
+.h3-tag span{
+	color: #7cc000;
+	margin-right: 10px;
+}
+.space-bottom{
+	margin: 20px auto;
+}
+.farming-img{
+	width: 90%;
+	margin: auto;
+}
+.farming-img img{
+	width: 100%;
+	border-radius: 25px;
+}
+.organic-farming{
+	width: 75%;
+	background-color: #2c2c2c;
+	color: white;
+	line-height: 2.1;
+	font-size: 18px;
+	padding: 30px;
+	border-radius: 25px;
+	position: absolute;
+	top: 150px;
+	left: -100px;
+}
+.indian-farming{
+	width: 45%;
+	position: relative;
+}
+.trusted-food-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin: 85px auto;
+}
+.hamilton{
+	color: grey;
+	margin: 10px auto;
+}
+.hamilton span{
+	color: #eeb136;
+}
+.form-tittle h3{
+	font-size: 25px;
+}
+.form-tittle p{
+	font-size: 17px;
+	font-weight: 500;
+	margin: 10px auto;
+}
+.form-wrapper{
+	width: 35%;
+	text-align: center;
+	padding: 60px 0px;
+	border-radius: 22px;
+	-webkit-box-shadow: 2px 2px 8px 4px #DEDEDE;
+box-shadow: 2px 2px 8px 4px #DEDEDE;
+}
+.input-wrapper input{
+	width: 80%;
+	padding: 15px 20px;
+	margin: 12px auto;
+	font-size: 16px;
+	border: 1px solid lightgrey;
+	border-radius: 25px;
+}
+.sign-up{
+	width: 80%;
+	padding: 15px 20px;
+	margin: 10px auto;
+	font-size: 16px;
+	border-radius: 25px;
+	border: 2px solid #7cc000;
+	background-color: #7cc000;
+	font-weight: 500;
+	color: white;
+	cursor: pointer;
+}
+.sign-up:hover{
+	color: #7cc000;
+	background-color: transparent;
+	-webkit-transition: all ease-in .3s;
+    -ms-transition: all ease-in .3s;
+    -moz-transition: all ease-in .3s;
+}
+.terms-tittle{
+	color: lightgrey;
+	font-size: 18px;
+	font-weight: 500;
+	margin: 15px auto;
+}
+.terms-tittle span{
+	color: #5892d0;
+}
+.width-flex{
+	width: 55%;
+	flex-wrap: wrap;
+	display: flex;
+	gap: 22px;
+}
+.offer-box{
+	border: none;
+	width: 45%;
+}
+.organic-product{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.social-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 50px;
+}
+.footer-wrapper{
+	background-color: #101010;
+	color: white;
+}
+.input-details input{
+	padding: 20px;
+	border-radius: 29px;
+	background-color: #1b1b1b;
+	border: 1px solid #1b1b1b;
+	width: 35%;
+	font-size: 16px;
+}
+#input-shift{
+	margin-left: -42px;
+}
+.subscribe-shift{
+	margin-left: -40px;
+}
+.social-icons{
+	display: flex;
+	gap: 20px;
+}
+.social-icons img{
+	border: 2px solid white;
+	padding: 8px;
+	background-color: white;
+	border-radius: 100%;
+	cursor: pointer;
+}
+.social-icons img:hover{
+	border: 2px solid #7cc000;
+	background-color: transparent;
+}
+.footer-about-us{
+	display: flex;
+	justify-content: space-between;
+}
+.footer-about-us a{
+	font-weight: 700;
+	font-size: 20px;
+	color: white;
+	margin-bottom: 10px;
+}
+.like-us{
+	width: 25%;
+	border: 2px solid #282828;
+	padding: 25px 35px;
+}
+.like-us p{
+	color: grey;
+	line-height: 1.9;
+	margin: 15px auto;
+}
+.information-wrapper{
+	width: 25%;
+	border: 2px solid #282828;
+	padding: 25px 35px;
+}
+.li-tag{
+	list-style: none;
+	line-height: 2.3;
+	font-size: 16px;
+	color: grey;
+	font-size: 18px;
+}
+.li-tag:hover{
+	color: white;
+}
+.contact-wrapper{
+	width: 25%;
+	border: 2px solid #282828;
+	padding: 25px 35px;
+}
+.upper-margin{
+	margin-top: 14px;
+}
+.contact-p{
+	color: grey;
+	line-height: 2.4;
+}
+.contact-p span{
+	color: white;
+}
+.contact-wrapper h4{
+	margin: 10px auto;
+	font-size: 18px;
+}
+.organic-footer{
+	padding: 20px;
+}
+.copyright-wrapper{
+	display: flex;
+	justify-content: space-between;
+	margin: 25px auto 10px auto;
+	align-items: center;
+}
+.copyright-box1 p{
+	color: grey;
+	font-weight: 500;
+}
+.copyrightp span{
+	color: #7cc000;
+}
